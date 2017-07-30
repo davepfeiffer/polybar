@@ -1,3 +1,11 @@
+# Fork Changes
+
+This fork just hacks in some zero padding to formats ex:
+
+`0%` -> `00%`
+
+This stops labels from shifting around when values change between digits, and potentially catching unneeded eye traffic.
+
 # Polybar
 
 [![Build Status](https://travis-ci.org/jaagr/polybar.svg?branch=master)](https://travis-ci.org/jaagr/polybar)
